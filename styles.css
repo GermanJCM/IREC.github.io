@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.section {
+    padding: 2rem;
+    border-bottom: 1px solid #ddd;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    padding: 1rem 0;
+}
+
+.navbar-brand img {
+    height: 60px; /* Ajusta el tamaño del logo */
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+    color: rgb(0, 0, 0) !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    background-color: #00d1b2;
+    border-radius: 5px;
+}
+
+#intro {
+    text-align: center;
+    background-color: #004aad;
+    color: white;
+}
+
+#intro h1 {
+    font-size: 2.5rem;
+}
+
+#intro .col-lg-6 img {
+    max-width: 100%; /* Asegura que la imagen no se desborde */
+    height: auto;
+}
+
+#intro h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#intro .contact-button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+}
+
+.contact-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #00aaff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#quienes-somos {
+    background-image: url(1ro.avif);
+    background-size: cover  ;
+}
+
+#quienes-somos h2, #guias h2{
+    margin-bottom: 1rem;
+    color: #000000;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 20px;
+}
+
+#servicios h2, #proyectos h2 {
+    margin-bottom: 1rem;
+    color: #ffffff;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 20px;
+}
+
+.col-sm-6 .card {
+    background-color: #CCEEFF;
+}
+
+#servicios .row {
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+#proyectos .row {
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+#servicios {
+    background-image: url(2do.webp);
+    background-size: cover;
+}
+
+#equipo {
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222;
+    color: white;
+}
+
+#equipo .card-img-top {
+    width: 150px;  /* Ajusta el tamaño de las imágenes */
+    height: 150px; /* Mantén la misma altura que el ancho para que sea circular */
+    object-fit: cover;  /* Asegura que la imagen cubra todo el área del contenedor */
+    border-radius: 50%;  /* Convierte la imagen en un círculo */
+    margin: 0 auto;  /* Centra la imagen dentro de la tarjeta */
+    display: block;
+}
+
+#equipo .card {
+    display: flex;            /* Hace que la tarjeta sea un contenedor flexible */
+    flex-direction: column;   /* Alinea el contenido de la tarjeta de arriba a abajo */
+    height: 100%;             /* Asegura que la tarjeta ocupe el 100% del espacio disponible */
+}
+
+#proyectos {
+    background-image: url(3ro.avif);
+    background-size: cover;
+}
+
+#proyectos .card-img-top {
+    height: 300px; /* Mantén la misma altura que el ancho para que sea circular */
+}
+
+#proyectos .card {
+    display: flex;            /* Hace que la tarjeta sea un contenedor flexible */
+    flex-direction: column;   /* Alinea el contenido de la tarjeta de arriba a abajo */
+    height: 100%;             /* Asegura que la tarjeta ocupe el 100% del espacio disponible */
+}
